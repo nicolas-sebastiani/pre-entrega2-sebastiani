@@ -9,11 +9,13 @@
     --grey-dark: #323331;
     --grey-light: #767272;
     --color-clients: #D9D9D9;
-    --font-1: 'jura';
+    --colorfnt-nav: #FDF1F1;
+    --fnt-1: 'jura';
 }
 
-a:hover{
+a:visited, a:hover{
     font-weight: bolder;
+    color: var(--colorfnt-nav);
 }
 
 .grey-dark{
@@ -24,15 +26,14 @@ a:hover{
     background-color: var(--grey-light);
 }
 
-.logo-scaled {
-    width: 16%;
-    height: auto;
-}
-
 .font-nav {
     font-family: var(--font-1);
 }
 
 .font-size3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+.color-fontnav {
+    color: var(--colorfnt-nav);
 }
