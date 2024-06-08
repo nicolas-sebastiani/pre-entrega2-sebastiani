@@ -11,3 +11,28 @@
     --color-clients: #D9D9D9;
     --font-1: 'jura';
 }
+
+a:hover{
+    font-weight: bolder;
+}
+
+.grey-dark{
+    background-color: var(--grey-dark);
+}
+
+.grey-light{
+    background-color: var(--grey-light);
+}
+
+.logo-scaled {
+    width: 16%;
+    height: auto;
+}
+
+.font-nav {
+    font-family: var(--font-1);
+}
+
+.font-size3 {
+    font-size: 1rem;
+}
