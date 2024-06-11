@@ -45,22 +45,30 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <form class="mx-auto rounded font-size2">
-                <div class="mb-3">
-                    <div id="emailHelp" class="form-text">New User? <a href="#"><strong>Create a new Account.</strong></a></div>
-                    <label for="exampleInputEmail1" class="form-label">User</label>
-                    <input type="email" class="form-control opacity-25" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="signfondo img-fluid align-items-center">
+        <form class="rounded position-absolute top-50 start-50 translate-middle">
+            <div class="row mb-3 ms-1 align-items-center">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"><img src="../assets/img/signlogo.png" alt="sign"></label>
+                <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control opacity-25" id="exampleInputPassword1">
+            </div>
+            <div class="row mb-3 ms-1 align-items-center">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"><img src="../assets/img/lockerlogore.png" alt="lock"></label>
+                <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Remember me.</label>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label font-size3" for="gridCheck1">
+                    Remember me.
                 </div>
-                <button type="submit" class="btn btn-primary opacity-75">Log In</button>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-dark">Sign in</button>
             </form>
         </div>
     </main>
