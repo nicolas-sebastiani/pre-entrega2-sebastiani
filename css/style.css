@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -23,8 +22,8 @@ a:visited, a:hover{
 }
 
 ::selection {
-    color: green; /* Cambia el color del texto seleccionado */
-    background-color: black; /* Cambia el fondo de la selección */
+    color: green;
+    background-color: black;
 }
 
 .font-nav {
@@ -71,6 +70,14 @@ form {
     background-image: url(../assets/img/sopfondo5.jpg);
     width: 100%;
     height: 80rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.videosfondo {
+    background-image: url(../assets/img/videofondo3.jpg);
+    width: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
 }
