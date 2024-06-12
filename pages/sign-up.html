@@ -14,19 +14,19 @@
 <body>
     <header>
         <nav class="navbar navbar-light p-0">
-            <div class="container-fluid grey-dark">
+            <div class="container-fluid grey-dark p-2">
                 <a class="navbar-brand" href="../index.html"><img class="img-fluid" src="../assets/img/logo.png"></a>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-sm p-0 grey-light font-nav font-size3">
+        <nav class="navbar navbar-expand-sm p-0 grey-light font-nav fs-5">
             <div class="container-fluid">
-                <div class="d-flex color-fontnav">
+                <div class="d-flex color-fontnav ">
                     <a class="nav-link" href="#">Sign In</a>
                 </div>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse show justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-collapse collapse show justify-content-end" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <a class="nav-link color-fontnav" href="../index.html">Home</a>
                 </li>
@@ -44,32 +44,32 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="signfondo img-fluid align-items-center">
-        <form class="rounded position-absolute top-50 start-50 translate-middle">
-            <div class="row mb-3 ms-1 align-items-center">
-                <label for="inputEmail3" class="col-sm-2 col-form-label"><img src="../assets/img/signlogo.png" alt="sign"></label>
-                <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3">
-                </div>
+    <main class="signfondo img-fluid">
+        <div class="container">
+            <div class="row m-0">
+                <form class="w-75 mx-auto mt-3 p-5">
+                    <h2 class="text-center font-nav fs-1 mb-5">Log In</h2>
+                    <p class="fs-3 font-monospace">New User? <a class="fs-3 text-decoration-none fw-semibold text-reset" href="#">Create an Account.</a></p>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fs-3">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text fs-4 text-muted">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label fs-3">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input mt-3" id="exampleCheck1">
+                        <label class="form-check-label fs-3" for="exampleCheck1">Remember me.</label>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success fs-3" type="button">Continue with email</button>
+                        <p class="text-center mt-2 font-size3">or</p>
+                        <button class="btn btn-primary fs-3" type="button">Continue with Google</button>
+                    </div>
+                    </form>
             </div>
-            <div class="row mb-3 ms-1 align-items-center">
-                <label for="inputPassword3" class="col-sm-2 col-form-label"><img src="../assets/img/lockerlogore.png" alt="lock"></label>
-                <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3">
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-sm-10 offset-sm-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                    <label class="form-check-label font-size3" for="gridCheck1">
-                    Remember me.
-                </div>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-dark">Sign in</button>
-            </form>
         </div>
     </main>
     <footer class="container-fluid p-0">
